@@ -1,0 +1,19 @@
+﻿# Task 2 Report: Complexity Analysis
+
+
+## 1. Binary Search
+- **Time**: O(log n) - halves search space each step
+- **Space**: O(1) - iterative version
+- **Test**: Array {2,5,8,12,16,23,38,56,72,91}, target=23 → Index 5
+
+
+## 2. Quicksort
+- **Time**: O(n log n) average, O(n²) worst case
+- **Space**: O(log n) recursion stack
+- **Test**: {10,7,8,9,1,5} → {1,5,7,8,9,10}
+
+
+## 3. 0/1 Knapsack
+- **Time**: O(n*W) where n=items, W=capacity
+- **Space**: O(n*W) for DP table
+- **Test**: weights={10,20,30}, values={60,100,120}, W=50 → Max value 220
